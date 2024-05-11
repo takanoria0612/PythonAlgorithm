@@ -1,25 +1,30 @@
-# sorting/bubble_sort.py
-"""
-Bubble Sort Algorithm
-"""
+from typing import List
 
-def bubble_sort(arr):
+def bubble_sort(numbers: List[int]) -> List[int]:
     """
-    Sorts an array using the bubble sort algorithm.
-    
-    Parameters:
-        arr (list): List of elements to be sorted.
-    
-    Returns:
-        list: Sorted list.
+    バブルソートアルゴリズムを使用して整数のリストをソートします。
+
+    引数:
+    numbers : List[int]
+        ソートされる整数のリスト。
+
+    戻り値:
+    List[int]
+        ソートされた整数のリスト。
     """
-    n = len(arr)
-    for i in range(n):
-        for j in range(0, n-i-1):
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
-    return arr
+    # リストの各要素に対してループ処理
+    for i in range(len(numbers)):
+        # バブルソートのパスを実行し、最大の未ソート要素を正しい位置に移動
+        for j in range(len(numbers)-1-i):
+            # 隣接する要素を比較し、順序が間違っていれば交換
+            if numbers[j] > numbers[j+1]:
+                numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+    return numbers
 
 if __name__ == "__main__":
-    sample_array = [64, 34, 25, 12, 22, 11, 90]
-    print("Sorted array:", bubble_sort(sample_array))
+    import random 
+    # 0から100までのランダムな整数で構成されるサンプル配列を10個生成
+    sample_array = [random.randint(0, 100) for _ in range(10)]
+    print("未ソートの配列:", sample_array)
+    print("ソート済みの配列:", bubble_sort(sample_array))
+
