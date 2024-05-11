@@ -1,1 +1,21 @@
-__pycache__/
+# Virtual Environment
+venv/
+
+# Python cache files
+**/__pycache__/
+*.py[cod]
+
+# Environment and config files
+config.py
+
+# Logs
+*.log
+
+# IDE settings (examples: VSCode, PyCharm)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS-specific files
+.DS_Store
