@@ -79,5 +79,4 @@
      - `numbers[i], numbers[i + gap] = numbers[i + gap], numbers[i]`
      - `swapped = True`
 
-### TDDプロセス
 
