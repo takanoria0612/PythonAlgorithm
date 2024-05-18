@@ -1,5 +1,5 @@
 import pytest
-from your_module import cocktail_sort
+from sorting.cocktail_sort import cocktail_sort
 
 def test_empty_list():
     assert cocktail_sort([]) == []
