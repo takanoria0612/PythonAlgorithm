@@ -28,5 +28,6 @@ def cocktail_sort(numbers: List[int]) -> List[int]:
             if numbers[i] > numbers[i + 1]:
                 numbers[i], numbers[i + 1] = numbers[i + 1], numbers[i]
                 swapped = True
+        start += 1
     return numbers
 
