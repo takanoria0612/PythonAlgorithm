@@ -8,3 +8,17 @@ def cocktail_sort(numbers: List[int]) -> List[int]:
     swapped = True
     start = 0
     end = len_numbers - 1
+    while swapped:
+        swapped = False
+        ## 右から左にソート
+        ## 実装
+        swapped = True
+
+        if not swapped:
+            break
+
+        swapped = True
+        ## 左から右にソート
+        ## 実装
+        swapped = True
+
