@@ -2,7 +2,13 @@
 """
 Unit tests for bubble sort
 """
+import sys
+import os
 
+# Append the project root directory to the sys.path
+current_dir = os.path.dirname(__file__)
+project_root = os.path.join(current_dir, '..')
+sys.path.append(project_root)
 import unittest
 from sorting.bubble_sort import bubble_sort
 from utils.helpers import is_sorted
