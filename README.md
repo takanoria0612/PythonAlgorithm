@@ -4,4 +4,4 @@
 
 # Atcoder 　の問題を解く
 
-- [ABC083B の Docs](./docs/Atcoder/ABC083B.md):[ABC083B 解放のソース](./Atcoder/ABC083B.py)
+- [ABC083B の Docs](./docs/Atcoder/ABC083B.md) : [解法のソース](./Atcoder/ABC083B.py)
