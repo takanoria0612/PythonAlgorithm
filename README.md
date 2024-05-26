@@ -4,4 +4,4 @@
 
 # Atcoder の問題を解く
 
-- [ABC083B の Docs](./docs/Atcoder/ABC083B.md) : [解法のソース](./Atcoder/ABC083B.py)
+- [ABC083B の Docs](./docs/Atcoder/ABC083B.md) : [解法の(汚い)ソース](./Atcoder/ABC083B.py)　: [解法の(リファクタリングした)ソース](./Atcoder/RefactoredABC083B.py)
