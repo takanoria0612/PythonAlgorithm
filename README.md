@@ -1,7 +1,7 @@
 # TDD で algorithm を実装する
 
 - [カクテルソート](./requirements/cocktail_sort.md): 「カクテルソート」のテストコード設計書
-- [クイックソート](.sorting/quick_sort.py): 「クイックソートのソース」
+- [クイックソート](./sorting/quick_sort.py): 「クイックソートのソース」
 
 # Atcoder の問題を解く
 
